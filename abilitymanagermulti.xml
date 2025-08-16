@@ -150,7 +150,7 @@
                     <InitiallyHidden value="false"/>
                     <CooldownDuration value="60.0"/>
                     <Duration value="5.0"/>
-                    <SpeedFactor value="1.2"/>
+                    <SpeedFactor value="1.25"/>
                 </AbilitySpeedBoost>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="891829267" objID="1472009199">
@@ -178,8 +178,8 @@
                     <InitiallyHidden value="false"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408430"/>
                     <CooldownDuration value="60.0"/>
-                    <Duration value="6.5"/>
-                    <SpeedFactor value="1.2"/>
+                    <Duration value="7.5"/>
+                    <SpeedFactor value="1.25"/>
                 </AbilitySpeedBoost>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="891829267" objID="2375577820">
@@ -207,8 +207,8 @@
                     <InitiallyHidden value="false"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408430"/>
                     <CooldownDuration value="60.0"/>
-                    <Duration value="5.0"/>
-                    <SpeedFactor value="1.3"/>
+                    <Duration value="3.5"/>
+                    <SpeedFactor value="1.5"/>
                 </AbilitySpeedBoost>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="891829267" objID="2375577826">
@@ -237,7 +237,7 @@
                     <Handle propertyName="ExtendedAbility" objID="2364408430"/>
                     <CooldownDuration value="50.0"/>
                     <Duration value="5.0"/>
-                    <SpeedFactor value="1.2"/>
+                    <SpeedFactor value="1.25"/>
                 </AbilitySpeedBoost>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="2396842110" objID="2364408427">
@@ -384,7 +384,7 @@
                     <InitiallyHidden value="false"/>
                     <CooldownDuration value="90.0"/>
                     <FocusDuration value="1.5"/>
-                    <TargetAwarnessDelay value="0.1"/>
+                    <TargetAwarnessDelay value="0.001"/>
                     <MinHit value="0.1"/>
                 </AbilityHiddenGun>
             </Reference>
@@ -414,7 +414,7 @@
                     <Handle propertyName="ExtendedAbility" objID="2364408411"/>
                     <CooldownDuration value="90.0"/>
                     <FocusDuration value="1.5"/>
-                    <TargetAwarnessDelay value="0.1"/>
+                    <TargetAwarnessDelay value="0.001"/>
                     <MinHit value="0.3"/>
                 </AbilityHiddenGun>
             </Reference>
@@ -444,7 +444,7 @@
                     <Handle propertyName="ExtendedAbility" objID="2364408411"/>
                     <CooldownDuration value="90.0"/>
                     <FocusDuration value="1.0"/>
-                    <TargetAwarnessDelay value="0.1"/>
+                    <TargetAwarnessDelay value="0.001"/>
                     <MinHit value="0.1"/>
                 </AbilityHiddenGun>
             </Reference>
@@ -474,7 +474,7 @@
                     <Handle propertyName="ExtendedAbility" objID="2364408411"/>
                     <CooldownDuration value="80.0"/>
                     <FocusDuration value="1.5"/>
-                    <TargetAwarnessDelay value="0.1"/>
+                    <TargetAwarnessDelay value="0.001"/>
                     <MinHit value="0.1"/>
                 </AbilityHiddenGun>
             </Reference>
@@ -649,9 +649,9 @@
                     <Index value="0"/>
                     <InitiallyHidden value="false"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408414"/>
-                    <CooldownDuration value="60.0"/>
-                    <MaxEntities value="6"/>
-                    <Radius value="3.2"/>
+                    <CooldownDuration value="50.0"/>
+                    <MaxEntities value="50"/>
+                    <Radius value="20.0"/>
                 </AbilityMorph>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="1285884845" objID="1472009175">
@@ -678,9 +678,9 @@
                     <Index value="0"/>
                     <InitiallyHidden value="false"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408414"/>
-                    <CooldownDuration value="60.0"/>
-                    <MaxEntities value="4"/>
-                    <Radius value="4.5"/>
+                    <CooldownDuration value="75.0"/>
+                    <MaxEntities value="100"/>
+                    <Radius value="35.0"/>
                 </AbilityMorph>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="1285884845" objID="2375577808">
@@ -707,9 +707,9 @@
                     <Index value="0"/>
                     <InitiallyHidden value="false"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408414"/>
-                    <CooldownDuration value="50.0"/>
-                    <MaxEntities value="4"/>
-                    <Radius value="3.2"/>
+                    <CooldownDuration value="15.0"/>
+                    <MaxEntities value="2"/>
+                    <Radius value="2.0"/>
                 </AbilityMorph>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="1648665360" objID="2364408432">
@@ -1634,7 +1634,7 @@
                     </UIString>
                     <Index value="0"/>
                     <InitiallyHidden value="false"/>
-                    <SpeedFactor value="0.15"/>
+                    <SpeedFactor value="0.44"/>
                 </AbilitySilentHunt>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="2648713513" objID="3828100792">
