@@ -5,25 +5,25 @@
             <UnlockableUnlockCondition memberName="UnlockConditionList">
                 <Handle propertyName="UnlockableRef" objID="1465208271"/>
                 <Pointer propertyName="UnlockConditionRef" classID="3601268473">
-                    <UnlockConditionUPlay memberName="UnlockConditionRef">
-                        <Code value="unlockHARLEQUIN"/>
-                    </UnlockConditionUPlay>
+                    <UnlockConditionLevel memberName="UnlockConditionRef">
+                        <Level value="1"/>
+                    </UnlockConditionLevel>
                 </Pointer>
             </UnlockableUnlockCondition>
             <UnlockableUnlockCondition memberName="UnlockConditionList">
                 <Handle propertyName="UnlockableRef" objID="1465208287"/>
                 <Pointer propertyName="UnlockConditionRef" classID="3601268473">
-                    <UnlockConditionUPlay memberName="UnlockConditionRef">
-                        <Code value="unlockOFFICER"/>
-                    </UnlockConditionUPlay>
+                    <UnlockConditionLevel memberName="UnlockConditionRef">
+                        <Level value="1"/>
+                    </UnlockConditionLevel>
                 </Pointer>
             </UnlockableUnlockCondition>
             <UnlockableUnlockCondition memberName="UnlockConditionList">
                 <Handle propertyName="UnlockableRef" objID="1465208282"/>
                 <Pointer propertyName="UnlockConditionRef" classID="3601268473">
-                    <UnlockConditionUPlay memberName="UnlockConditionRef">
-                        <Code value="unlockHELLEQUIN"/>
-                    </UnlockConditionUPlay>
+                    <UnlockConditionLevel memberName="UnlockConditionRef">
+                        <Level value="1"/>
+                    </UnlockConditionLevel>
                 </Pointer>
             </UnlockableUnlockCondition>
             <UnlockableUnlockCondition memberName="UnlockConditionList">
