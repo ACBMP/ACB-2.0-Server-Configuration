@@ -5,7 +5,7 @@
     <GBrick_Respawn Start="AbilitySelectionRequestRespawn" OnFinished="RespawnRestart" RespawnTime="0" SpawnPointType="0" SpawnPointRule="7" RandomSkin="false" SpawnInWhiteRoom="false"/>
     <GBrick_Respawn Start="TeamLoopReady" RespawnTime="0" SpawnPointType="2" SpawnPointRule="7" RandomSkin="false" SpawnInWhiteRoom="false"/>
     <GBrick_Respawn Start="StartRound" RespawnTime="0" SpawnPointType="2" SpawnPointRule="7" RandomSkin="false" SpawnInWhiteRoom="false"/>
-    <GBrick_AbilitySetSelection Start="LocalPlayerEndOfDeath" OnFinished="AbilitySelectionRequestRespawn" MinTime="5" MaxTime="15" GameEntrance="false"/>
+    <GBrick_AbilitySetSelection Start="LocalPlayerEndOfDeath" OnFinished="AbilitySelectionRequestRespawn" MinTime="1" MaxTime="12" GameEntrance="false"/>
     <GBrick_ScoreKill IsTeamScore="true" UseCote="false" MetaScore="0" AllowFirstBlood="false"/>
     <GBrick_ScoreChase IsTeamScore="true" MetaScore="0"/>
     <GBrick_ScoreCommon IsTeamScore="true" MetaScore="0"/>
