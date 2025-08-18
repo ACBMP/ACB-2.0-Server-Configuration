@@ -969,8 +969,8 @@
                     <Duration value="2.5"/>
                     <CosMax value="0.82"/>
                     <Range value="2.5"/>
-                    <OverBoost value="1.3"/>
-                    <ControlCoef value="0.25"/>
+                    <OverBoost value="-0.5"/>
+                    <ControlCoef value="1.00"/>
                 </AbilityPowerCharge>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="1537228796" objID="2375577953">
@@ -1001,8 +1001,8 @@
                     <Duration value="2.5"/>
                     <CosMax value="0.7"/>
                     <Range value="2.7"/>
-                    <OverBoost value="1.3"/>
-                    <ControlCoef value="0.25"/>
+                    <OverBoost value="-0.5"/>
+                    <ControlCoef value="1.00"/>
                 </AbilityPowerCharge>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="1537228796" objID="2375577947">
@@ -1033,8 +1033,8 @@
                     <Duration value="4.0"/>
                     <CosMax value="0.82"/>
                     <Range value="2.5"/>
-                    <OverBoost value="1.3"/>
-                    <ControlCoef value="0.25"/>
+                    <OverBoost value="-0.5"/>
+                    <ControlCoef value="1.00"/>
                 </AbilityPowerCharge>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="1537228796" objID="2375577941">
@@ -1065,8 +1065,8 @@
                     <Duration value="2.5"/>
                     <CosMax value="0.82"/>
                     <Range value="2.5"/>
-                    <OverBoost value="1.3"/>
-                    <ControlCoef value="0.25"/>
+                    <OverBoost value="-0.5"/>
+                    <ControlCoef value="1.00"/>
                 </AbilityPowerCharge>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="2483449491" objID="2364408404">
