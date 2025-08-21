@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <root>
     <GameModeManagerMulti memberName="UnlockableManager">
-        <m_UnlockConditionList Array_Size="9">
+        <m_UnlockConditionList Array_Size="5">
             <UnlockableUnlockCondition memberName="UnlockConditionList">
                 <Handle propertyName="UnlockableRef" objID="395991267"/>
                 <Pointer propertyName="UnlockConditionRef" classID="1688405200">
@@ -11,42 +11,10 @@
                 </Pointer>
             </UnlockableUnlockCondition>
             <UnlockableUnlockCondition memberName="UnlockConditionList">
-                <Handle propertyName="UnlockableRef" objID="395991264"/>
-                <Pointer propertyName="UnlockConditionRef" classID="1688405200">
-                    <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="100"/>
-                    </UnlockConditionLevel>
-                </Pointer>
-            </UnlockableUnlockCondition>
-            <UnlockableUnlockCondition memberName="UnlockConditionList">
-                <Handle propertyName="UnlockableRef" objID="395991265"/>
-                <Pointer propertyName="UnlockConditionRef" classID="1688405200">
-                    <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="100"/>
-                    </UnlockConditionLevel>
-                </Pointer>
-            </UnlockableUnlockCondition>
-            <UnlockableUnlockCondition memberName="UnlockConditionList">
-                <Handle propertyName="UnlockableRef" objID="3958150735"/>
-                <Pointer propertyName="UnlockConditionRef" classID="1688405200">
-                    <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="100"/>
-                    </UnlockConditionLevel>
-                </Pointer>
-            </UnlockableUnlockCondition>
-            <UnlockableUnlockCondition memberName="UnlockConditionList">
                 <Handle propertyName="UnlockableRef" objID="3958150727"/>
                 <Pointer propertyName="UnlockConditionRef" classID="1688405200">
                     <UnlockConditionLevel memberName="UnlockConditionRef">
                         <Level value="1"/>
-                    </UnlockConditionLevel>
-                </Pointer>
-            </UnlockableUnlockCondition>
-            <UnlockableUnlockCondition memberName="UnlockConditionList">
-                <Handle propertyName="UnlockableRef" objID="3958150743"/>
-                <Pointer propertyName="UnlockConditionRef" classID="38051144">
-                    <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="100"/>
                     </UnlockConditionLevel>
                 </Pointer>
             </UnlockableUnlockCondition>
@@ -75,34 +43,7 @@
                 </Pointer>
             </UnlockableUnlockCondition>
         </m_UnlockConditionList>
-        <m_ReferenceList Array_Size="8">
-            <Reference propertyName="ReferenceList" classID="799033962" objID="395991264">
-                <UnlockableGameMode memberName="ReferenceList">
-                    <Icon value="386389572"/>
-                    <UIString memberName="NameString">
-                        <OasisLineID value="307820"/>
-                    </UIString>
-                    <UIString memberName="DescriptionString">
-                        <OasisLineID value="307821"/>
-                    </UIString>
-                    <UIString memberName="UnlockDescriptionString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="EvolutionInfoString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="ControlDescString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="ParamDescString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <Index value="0"/>
-                    <InitiallyHidden value="true"/>
-                    <GameModeName value="wanted_2"/>
-                    <PlayNowMinimumLevel value="1"/>
-                </UnlockableGameMode>
-            </Reference>
+        <m_ReferenceList Array_Size="5">
             <Reference propertyName="ReferenceList" classID="799033962" objID="395991267">
                 <UnlockableGameMode memberName="ReferenceList">
                     <Icon value="386389572"/>
@@ -154,7 +95,7 @@
                     <Index value="0"/>
                     <InitiallyHidden value="true"/>
                     <GameModeName value="teamvip"/>
-                    <PlayNowMinimumLevel value="5"/>
+                    <PlayNowMinimumLevel value="1"/>
                 </UnlockableGameMode>
             </Reference>
             <Reference propertyName="ReferenceList" classID="799033962" objID="3958150727">
@@ -181,7 +122,7 @@
                     <Index value="0"/>
                     <InitiallyHidden value="false"/>
                     <GameModeName value="catsmice"/>
-                    <PlayNowMinimumLevel value="3"/>
+                    <PlayNowMinimumLevel value="10"/>
                 </UnlockableGameMode>
             </Reference>
             <Reference propertyName="ReferenceList" classID="799033962" objID="3958151825">
@@ -208,61 +149,7 @@
                     <Index value="0"/>
                     <InitiallyHidden value="true"/>
                     <GameModeName value="assassinate"/>
-                    <PlayNowMinimumLevel value="5"/>
-                </UnlockableGameMode>
-            </Reference>
-            <Reference propertyName="ReferenceList" classID="799033962" objID="395991265">
-                <UnlockableGameMode memberName="ReferenceList">
-                    <Icon value="386389572"/>
-                    <UIString memberName="NameString">
-                        <OasisLineID value="310576"/>
-                    </UIString>
-                    <UIString memberName="DescriptionString">
-                        <OasisLineID value="310586"/>
-                    </UIString>
-                    <UIString memberName="UnlockDescriptionString">
-                        <OasisLineID value="318243"/>
-                    </UIString>
-                    <UIString memberName="EvolutionInfoString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="ControlDescString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="ParamDescString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <Index value="0"/>
-                    <InitiallyHidden value="true"/>
-                    <GameModeName value="teamwanted"/>
-                    <PlayNowMinimumLevel value="5"/>
-                </UnlockableGameMode>
-            </Reference>
-            <Reference propertyName="ReferenceList" classID="799033962" objID="3958150735">
-                <UnlockableGameMode memberName="ReferenceList">
-                    <Icon value="386389572"/>
-                    <UIString memberName="NameString">
-                        <OasisLineID value="310580"/>
-                    </UIString>
-                    <UIString memberName="DescriptionString">
-                        <OasisLineID value="316857"/>
-                    </UIString>
-                    <UIString memberName="UnlockDescriptionString">
-                        <OasisLineID value="318243"/>
-                    </UIString>
-                    <UIString memberName="EvolutionInfoString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="ControlDescString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="ParamDescString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <Index value="0"/>
-                    <InitiallyHidden value="true"/>
-                    <GameModeName value="advwanted"/>
-                    <PlayNowMinimumLevel value="12"/>
+                    <PlayNowMinimumLevel value="10"/>
                 </UnlockableGameMode>
             </Reference>
             <Reference propertyName="ReferenceList" classID="799033962" objID="3958150751">
@@ -289,7 +176,7 @@
                     <Index value="0"/>
                     <InitiallyHidden value="true"/>
                     <GameModeName value="pacman"/>
-                    <PlayNowMinimumLevel value="5"/>
+                    <PlayNowMinimumLevel value="10"/>
                 </UnlockableGameMode>
             </Reference>
         </m_ReferenceList>
