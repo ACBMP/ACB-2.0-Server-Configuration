@@ -28,7 +28,7 @@
                     <CooldownDuration value="60.0"/>
                     <Duration value="15.0"/>
                     <InstantEffect value="false"/>
-                    <GrantsHidden value="false"/>
+                    <GrantsHidden value="true"/>
                     <SwapSkinFXType value="0"/>
                 </AbilityDisguise>
             </Reference>
@@ -59,7 +59,7 @@
                     <CooldownDuration value="60.0"/>
                     <Duration value="20.0"/>
                     <InstantEffect value="false"/>
-                    <GrantsHidden value="false"/>
+                    <GrantsHidden value="true"/>
                     <SwapSkinFXType value="0"/>
                 </AbilityDisguise>
             </Reference>
@@ -89,7 +89,7 @@
                     <Handle propertyName="ExtendedAbility" objID="2364408405"/>
                     <CooldownDuration value="60.0"/>
                     <Duration value="15.0"/>
-                    <InstantEffect value="false"/>
+                    <InstantEffect value="true"/>
                     <GrantsHidden value="true"/>
                     <SwapSkinFXType value="1"/>
                 </AbilityDisguise>
