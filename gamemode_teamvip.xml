@@ -19,7 +19,7 @@
     <GBrick_TeammateFeedback Start="StartRoundFadeDone" Stop="GameStateEnded,StartInterround" DisplayDebug="false"/>
     <GBrick_TeammateLockFeedback Start="InGame" Stop="GameStateEnded" DisplayDebug="false"/>
     <GBrick_ChooseVipSkins Start="GoToGamemodeIntro" OnFinished="VipSkinsChoosen"/>
-    <GBrick_Round Start="VipSkinsChoosen" Stop="GameStateEnded" Cancel="RestartMenuFlow" Restart="TimerEnded" NotifyHUD="InGame" NotifyScoreSent="MidScoresSent" OnFinished="GameOver" OnStarted="StartInterround" OnRestart="StartRound" RestartNeedsAbi="true" RestartNeedsGMStarted="true" nbRoundFromNbTeams="false" NumberOfRounds="2" CumulativeScores="true" ResetKillerLoop="false" ResetAbilityCD="true" ScoreRecapDuration="15" IntroDuration="15" WaitForTeamLoop="false" WaitForKillerLoop="true"/>
+    <GBrick_Round Start="VipSkinsChoosen" Stop="GameStateEnded" Cancel="RestartMenuFlow" Restart="TimerEnded" NotifyHUD="InGame" NotifyScoreSent="MidScoresSent" OnFinished="GameOver" OnStarted="StartInterround" OnRestart="StartRound" RestartNeedsAbi="true" RestartNeedsGMStarted="true" nbRoundFromNbTeams="false" NumberOfRounds="2" CumulativeScores="true" ResetKillerLoop="false" ResetAbilityCD="true" ScoreRecapDuration="5" IntroDuration="5" WaitForTeamLoop="false" WaitForKillerLoop="true"/>
     <GBrick_ChooseAttackTeam Start="StartInterround" OnFinished="TeamLoop"/>
     <GBrick_SpawnVIPs Start="StartRound" Stop="StartInterround,GameStateEnded"/>
     <GBrick_ThreatMeter Start="StartRound" Stop="StartInterround" DisabledForProtector="true"/>

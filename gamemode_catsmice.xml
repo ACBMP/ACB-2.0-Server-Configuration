@@ -16,7 +16,7 @@
     <GBrick_TeammateAssassinFeedback Start="InGame" Stop="GameStateEnded" ShowArrow="true" ShowArrowOffscreen="false" DisplayDebug="false"/>
     <GBrick_TeammateFeedback Start="StartRoundFadeDone" Stop="GameStateEnded,StartInterround" DisplayDebug="false"/>
     <GBrick_TeammateLockFeedback Start="InGame" Stop="GameStateEnded" DisplayDebug="false"/>
-    <GBrick_Round Start="GoToGamemodeIntro" Stop="GameStateEnded" Cancel="RestartMenuFlow" Restart="TimerEnded" NotifyHUD="InGame" NotifyScoreSent="MidScoresSent" OnFinished="GameOver" OnStarted="StartInterround" OnRestart="StartRound" RestartNeedsAbi="true" RestartNeedsGMStarted="true" nbRoundFromNbTeams="false" NumberOfRounds="2" CumulativeScores="true" ResetKillerLoop="true" ResetAbilityCD="true" ScoreRecapDuration="10" IntroDuration="10"/>
+    <GBrick_Round Start="GoToGamemodeIntro" Stop="GameStateEnded" Cancel="RestartMenuFlow" Restart="TimerEnded" NotifyHUD="InGame" NotifyScoreSent="MidScoresSent" OnFinished="GameOver" OnStarted="StartInterround" OnRestart="StartRound" RestartNeedsAbi="true" RestartNeedsGMStarted="true" nbRoundFromNbTeams="false" NumberOfRounds="2" CumulativeScores="true" ResetKillerLoop="true" ResetAbilityCD="true" ScoreRecapDuration="5" IntroDuration="5"/>
     <GBrick_SelectTargetCatsMiceLoop Start="StartInterround" OnFinished="TeamLoop" SetAsPending="true"/>
     <GBrick_ClearKillerLoop Start="StartRound"/>
     <GBrick_RequestRespawnWhileHumiliated Start="InGame" Stop="GameStateEnded" YButtonInterval="5.0f" TimeToBlinkFirst="1.0f" TimeToBlinkLast="1.0f" BlinkIntervalFirst="0.2f" BlinkIntervalLast="0.1f"/>

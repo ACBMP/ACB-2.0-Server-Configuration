@@ -16,7 +16,7 @@
     <GBrick_TeammateAssassinFeedback Start="InGame" Stop="GameStateEnded" ShowArrow="true" ShowArrowOffscreen="false" DisplayDebug="false"/>
     <GBrick_TeammateFeedback Start="StartRoundFadeDone" Stop="GameStateEnded,StartInterround" DisplayDebug="false"/>
     <GBrick_TeammateLockFeedback Start="InGame" Stop="GameStateEnded" DisplayDebug="false"/>
-    <GBrick_Round Start="GoToGamemodeIntro" Stop="GameStateEnded" Cancel="RestartMenuFlow" Restart="TimerEnded" NotifyHUD="InGame" NotifyScoreSent="MidScoresSent" OnFinished="GameOver" OnStarted="StartInterround" OnRestart="StartRound" RestartNeedsAbi="true" RestartNeedsGMStarted="true" nbRoundFromNbTeams="false" NumberOfRounds="2" CumulativeScores="true" ResetKillerLoop="true" ResetAbilityCD="true" ScoreRecapDuration="10" IntroDuration="10"/>
+    <GBrick_Round Start="GoToGamemodeIntro" Stop="GameStateEnded" Cancel="RestartMenuFlow" Restart="TimerEnded" NotifyHUD="InGame" NotifyScoreSent="MidScoresSent" OnFinished="GameOver" OnStarted="StartInterround" OnRestart="StartRound" RestartNeedsAbi="true" RestartNeedsGMStarted="true" nbRoundFromNbTeams="false" NumberOfRounds="2" CumulativeScores="true" ResetKillerLoop="true" ResetAbilityCD="true" ScoreRecapDuration="5" IntroDuration="5"/>
     <GBrick_Delay Start="StartInterround" OnFinished="TeamLoopReady" DelayDuration="1.f"/>
     <GBrick_ActivatePendingTeamLoop Start="StartRound"/>
     <GBrick_SelectBestTargetTeamWanted Start="KillEvent,PlayerRemoved,EndOfEscape,EnginePlayerInGame" Stop="GameStateEnded" Cancel="GameStateStarted,TimerEnded" TimeWithoutTarget="8.f" ChangeTargetOnNPCKill="true" ChangeAllTargetsOnNPCKill="true" SwitchToTeammate="false" SwitchMyTeammate="false"/>
