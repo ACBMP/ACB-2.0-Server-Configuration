@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameMode Name="TEAMVIP" EngineName="teamvip" idGameMode="7" SessionType="0" MinPlayers="4" MaxPlayers="4" TopPlayers="4" IdMetaSession="-1" IsTeamMode="true" CanJoinInGame="true" CanJoinWithGroup="true" JoinMaxGroupSize="2" PrivateMinPlayers="2" UseAnimationForVIPDeath="true" TemplarGrade="Team" SearchExpirationTime="10.0f" MaxSessionToTry="5" normalBlacklistedSessionTime="40" SearchStrategy="1">
-    <GBrick_Timer Start="StartRound" Cancel="NoMoreEnoughPlayers" Show="InGame,StartRound" Hide="GameStateEnded,StartInterround" OnFinished="TimerEnded" DurationFromNbTeams="true" GameDuration="300" Duration3Teams="300" Duration4Teams="180" Play1mnVoice="false" Play30sVoice="true"/>
+    <GBrick_Timer Start="StartRound" Cancel="NoMoreEnoughPlayers" Show="InGame,StartRound" Hide="GameStateEnded,StartInterround" OnFinished="TimerEnded" DurationFromNbTeams="true" GameDuration="260" Duration3Teams="260" Duration4Teams="180" Play1mnVoice="false" Play30sVoice="true"/>
     <GBrick_Respawn Start="CanSpawnInWhiteRoom" OnFinished="SpawnedInWhiteRoom" RespawnTime="0" RandomSkin="false" SpawnInWhiteRoom="true"/>
     <GBrick_Respawn Start="AbilitySelectionRequestRespawn" OnFinished="RespawnRestart" RespawnTime="0" SpawnPointType="0" SpawnPointRule="6" RandomSkin="false" SpawnInWhiteRoom="false"/>
     <GBrick_Respawn Start="TeamLoopReady" RespawnTime="0" SpawnPointType="2" SpawnPointRule="7" RandomSkin="false" SpawnInWhiteRoom="false"/>
