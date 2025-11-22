@@ -25,7 +25,7 @@
         <ThreatmeterInAirSlowSpeed value="0.25"/>
         <ThreatmeterInAirFastSpeedOOS value="-0.066"/>
         <ThreatmeterInAirSlowSpeedOOS value="-0.0825"/>
-        <ThreatmeterFarSpeed value="-0.25"/>
+        <ThreatmeterFarSpeed value="10.0"/>
         <ScalePlayerFastMoveThreshold value="1.0"/>
         <ThreatCloseDistance value="10.0"/>
         <ThreatFarDistance value="35.0"/>
