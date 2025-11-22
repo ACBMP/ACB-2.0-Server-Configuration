@@ -36,7 +36,7 @@
     <GBrick_LogicAndOnEvent Start="GameStateStarted,PlayerCanStart" OnFinished="PlayerCanGoInGame" nbStartEvent="2"/>
     <GBrick_GameState SetStarted="ModeCanStart" SetEnded="TimerEnded,NoMoreEnoughPlayers" OnStarted="GameStateStarted" OnEnded="GameStateEnded"/>
     <GBrick_AttackFeedback Start="InGame" Stop="GameStateEnded" DisplayDebug="false"/>
-    <GBrick_Escape Start="InGame" Stop="GameStateEnded" StartChaseAtFullThreat="true" StartChaseOnNPCKill="false" FailChaseOnNPCKill="true" NPCKillMattersDistance="1000.0f" AllowStartChaseWhenChased="true" StayBlueUntilUnblend="true" ScoreOnHumiliation="true" BreakContractOnHumiliation="true" tempStatusText="false" DisplayDebug="false"/>
+    <GBrick_Escape Start="InGame" Stop="GameStateEnded" StartChaseAtFullThreat="true" StartChaseOnNPCKill="false" FailChaseOnNPCKill="true" NPCKillMattersDistance="1000.0f" AllowStartChaseWhenChased="true" StayBlueUntilUnblend="true" ScoreOnHumiliation="true" BreakContractOnHumiliation="true" tempStatusText="false" DisplayDebug="false" TimeToEscapeInSightNotHidden="1.25" TimeToEscapeInSightHidden="0.75" TimeToEscapeOutOfSightHidden="1.25" TimeToEscapeOutOfSightNotHidden="0.75"/>
     <GBrick_MapInfo Start="GameStateEnded" Stop="RankingSent" Title="YOU HAVE PLAYED"/>
     <GBrick_MapInfo Start="CanSpawnInWhiteRoom,Restart" Stop="InGame" Title="YOU WILL PLAY"/>
     <GBrick_BlockPlayer Start="GameModeInitialized,GameStateEnded,LocalPlayerEndOfDeath,Menu_BackFromWaitingForPlayers" Stop="EngineExitWhiteRoom"/>
