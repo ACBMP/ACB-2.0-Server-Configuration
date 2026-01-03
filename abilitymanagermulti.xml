@@ -24,8 +24,8 @@
                         <OasisLineID value="316308"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
-                    <CooldownDuration value="60.0"/>
+                    <InitiallyHidden value="true"/>
+                    <CooldownDuration value="50.0"/>
                     <Duration value="15.0"/>
                     <InstantEffect value="false"/>
                     <GrantsHidden value="true"/>
@@ -54,7 +54,7 @@
                         <OasisLineID value="316308"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408405"/>
                     <CooldownDuration value="60.0"/>
                     <Duration value="20.0"/>
@@ -85,7 +85,7 @@
                         <OasisLineID value="316308"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408405"/>
                     <CooldownDuration value="60.0"/>
                     <Duration value="15.0"/>
@@ -116,7 +116,7 @@
                         <OasisLineID value="316308"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408405"/>
                     <CooldownDuration value="50.0"/>
                     <Duration value="15.0"/>
@@ -147,10 +147,10 @@
                         <OasisLineID value="316317"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <CooldownDuration value="60.0"/>
-                    <Duration value="5.0"/>
-                    <SpeedFactor value="1.25"/>
+                    <Duration value="3.5"/>
+                    <SpeedFactor value="1.5"/>
                 </AbilitySpeedBoost>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="891829267" objID="1472009199">
@@ -175,7 +175,7 @@
                         <OasisLineID value="316317"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408430"/>
                     <CooldownDuration value="60.0"/>
                     <Duration value="7.5"/>
@@ -204,7 +204,7 @@
                         <OasisLineID value="316317"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408430"/>
                     <CooldownDuration value="60.0"/>
                     <Duration value="3.5"/>
@@ -233,7 +233,7 @@
                         <OasisLineID value="316317"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408430"/>
                     <CooldownDuration value="50.0"/>
                     <Duration value="5.0"/>
@@ -262,10 +262,10 @@
                         <OasisLineID value="316306"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <CooldownDuration value="60.0"/>
                     <Radius value="3.2"/>
-                    <Duration value="3.0"/>
+                    <Duration value="4.0"/>
                     <Delay value="0.75"/>
                 </AbilitySmokeBomb>
             </Reference>
@@ -291,7 +291,7 @@
                         <OasisLineID value="316306"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408427"/>
                     <CooldownDuration value="60.0"/>
                     <Radius value="4.0"/>
@@ -321,7 +321,7 @@
                         <OasisLineID value="316306"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408427"/>
                     <CooldownDuration value="60.0"/>
                     <Radius value="3.2"/>
@@ -351,7 +351,7 @@
                         <OasisLineID value="316306"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408427"/>
                     <CooldownDuration value="50.0"/>
                     <Radius value="3.2"/>
@@ -381,9 +381,9 @@
                         <OasisLineID value="316313"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <CooldownDuration value="90.0"/>
-                    <FocusDuration value="1.5"/>
+                    <FocusDuration value="1.0"/>
                     <TargetAwarnessDelay value="0.001"/>
                     <MinHit value="0.1"/>
                 </AbilityHiddenGun>
@@ -410,7 +410,7 @@
                         <OasisLineID value="316313"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408411"/>
                     <CooldownDuration value="90.0"/>
                     <FocusDuration value="1.5"/>
@@ -440,7 +440,7 @@
                         <OasisLineID value="316313"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408411"/>
                     <CooldownDuration value="90.0"/>
                     <FocusDuration value="1.0"/>
@@ -470,7 +470,7 @@
                         <OasisLineID value="316313"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408411"/>
                     <CooldownDuration value="80.0"/>
                     <FocusDuration value="1.5"/>
@@ -500,8 +500,8 @@
                         <OasisLineID value="316323"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
-                    <CooldownDuration value="45.0"/>
+                    <InitiallyHidden value="true"/>
+                    <CooldownDuration value="35.0"/>
                     <Radius value="15.0"/>
                     <RadiusMaxIntensity value="6.0"/>
                     <Duration value="5.0"/>
@@ -529,7 +529,7 @@
                         <OasisLineID value="316323"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408410"/>
                     <CooldownDuration value="45.0"/>
                     <Radius value="17.5"/>
@@ -559,7 +559,7 @@
                         <OasisLineID value="316323"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408410"/>
                     <CooldownDuration value="45.0"/>
                     <Radius value="15.0"/>
@@ -589,7 +589,7 @@
                         <OasisLineID value="316323"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408410"/>
                     <CooldownDuration value="35.0"/>
                     <Radius value="15.0"/>
@@ -619,10 +619,10 @@
                         <OasisLineID value="316310"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
-                    <CooldownDuration value="60.0"/>
-                    <MaxEntities value="4"/>
-                    <Radius value="3.2"/>
+                    <InitiallyHidden value="true"/>
+                    <CooldownDuration value="75.0"/>
+                    <MaxEntities value="100"/>
+                    <Radius value="25.0"/>
                 </AbilityMorph>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="1285884845" objID="2375577802">
@@ -647,7 +647,7 @@
                         <OasisLineID value="316310"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408414"/>
                     <CooldownDuration value="50.0"/>
                     <MaxEntities value="50"/>
@@ -676,7 +676,7 @@
                         <OasisLineID value="316310"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408414"/>
                     <CooldownDuration value="75.0"/>
                     <MaxEntities value="100"/>
@@ -705,7 +705,7 @@
                         <OasisLineID value="316310"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408414"/>
                     <CooldownDuration value="15.0"/>
                     <MaxEntities value="2"/>
@@ -734,9 +734,9 @@
                         <OasisLineID value="316329"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <CooldownDuration value="60.0"/>
-                    <Duration value="3.5"/>
+                    <Duration value="5.0"/>
                     <SpeedFactor value="0.9"/>
                 </AbilityThrowingKnives>
             </Reference>
@@ -762,7 +762,7 @@
                         <OasisLineID value="316329"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408432"/>
                     <CooldownDuration value="60.0"/>
                     <Duration value="5.0"/>
@@ -791,7 +791,7 @@
                         <OasisLineID value="316329"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408432"/>
                     <CooldownDuration value="60.0"/>
                     <Duration value="3.5"/>
@@ -820,7 +820,7 @@
                         <OasisLineID value="316329"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408432"/>
                     <CooldownDuration value="50.0"/>
                     <Duration value="3.5"/>
@@ -849,7 +849,7 @@
                         <OasisLineID value="316331"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <CooldownDuration value="60.0"/>
                     <Duration value="3.5"/>
                     <DistanceLimit value="30.0"/>
@@ -877,7 +877,7 @@
                         <OasisLineID value="316331"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2894362835"/>
                     <CooldownDuration value="60.0"/>
                     <Duration value="3.5"/>
@@ -906,7 +906,7 @@
                         <OasisLineID value="316331"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2894362835"/>
                     <CooldownDuration value="60.0"/>
                     <Duration value="5.0"/>
@@ -935,7 +935,7 @@
                         <OasisLineID value="316331"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2894362835"/>
                     <CooldownDuration value="50.0"/>
                     <Duration value="3.5"/>
@@ -964,7 +964,7 @@
                         <OasisLineID value="316327"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <CooldownDuration value="90.0"/>
                     <Duration value="2.5"/>
                     <CosMax value="0.82"/>
@@ -995,7 +995,7 @@
                         <OasisLineID value="316327"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408419"/>
                     <CooldownDuration value="90.0"/>
                     <Duration value="2.5"/>
@@ -1027,7 +1027,7 @@
                         <OasisLineID value="316327"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408419"/>
                     <CooldownDuration value="90.0"/>
                     <Duration value="4.0"/>
@@ -1059,7 +1059,7 @@
                         <OasisLineID value="316327"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408419"/>
                     <CooldownDuration value="80.0"/>
                     <Duration value="2.5"/>
@@ -1091,8 +1091,8 @@
                         <OasisLineID value="316319"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
-                    <CooldownDuration value="45.0"/>
+                    <InitiallyHidden value="true"/>
+                    <CooldownDuration value="35.0"/>
                     <Radius value="15.0"/>
                     <Duration value="10.0"/>
                     <DisguiseDelayMin value="-1.0"/>
@@ -1121,7 +1121,7 @@
                         <OasisLineID value="316319"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408404"/>
                     <CooldownDuration value="45.0"/>
                     <Radius value="15.0"/>
@@ -1152,7 +1152,7 @@
                         <OasisLineID value="316319"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408404"/>
                     <CooldownDuration value="45.0"/>
                     <Radius value="15.0"/>
@@ -1183,7 +1183,7 @@
                         <OasisLineID value="316319"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408404"/>
                     <CooldownDuration value="35.0"/>
                     <Radius value="15.0"/>
@@ -1214,10 +1214,10 @@
                         <OasisLineID value="316321"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <CooldownDuration value="90.0"/>
                     <Radius value="6.0"/>
-                    <Duration value="1.5"/>
+                    <Duration value="2.0"/>
                 </AbilitySilent>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="1739345932" objID="2375577899">
@@ -1242,7 +1242,7 @@
                         <OasisLineID value="316321"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408423"/>
                     <CooldownDuration value="90.0"/>
                     <Radius value="7.0"/>
@@ -1271,7 +1271,7 @@
                         <OasisLineID value="316321"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408423"/>
                     <CooldownDuration value="90.0"/>
                     <Radius value="6.0"/>
@@ -1300,7 +1300,7 @@
                         <OasisLineID value="316321"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408423"/>
                     <CooldownDuration value="80.0"/>
                     <Radius value="6.0"/>
@@ -1329,12 +1329,12 @@
                         <OasisLineID value="316325"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <CooldownDuration value="90.0"/>
                     <Range value="1.5"/>
-                    <Delay value="5.0"/>
-                    <PoisonType value="0"/>
-                    <Score value="200"/>
+                    <Delay value="6.5"/>
+                    <PoisonType value="2"/>
+                    <Score value="300"/>
                 </AbilityPoison>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="2775855305" objID="2375577935">
@@ -1359,7 +1359,7 @@
                         <OasisLineID value="316325"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408417"/>
                     <CooldownDuration value="90.0"/>
                     <Range value="1.5"/>
@@ -1390,7 +1390,7 @@
                         <OasisLineID value="316325"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408417"/>
                     <CooldownDuration value="90.0"/>
                     <Range value="1.5"/>
@@ -1421,7 +1421,7 @@
                         <OasisLineID value="316325"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408417"/>
                     <CooldownDuration value="80.0"/>
                     <Range value="1.5"/>
@@ -1452,7 +1452,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <CountOfBash value="5"/>
                 </AbilityAutoBash>
             </Reference>
@@ -1478,7 +1478,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                 </PassiveAbility>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="2954121833" objID="2282110128">
@@ -1503,7 +1503,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <DecreaseTime value="3.0"/>
                 </AbilityResistance>
             </Reference>
@@ -1529,7 +1529,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                 </PassiveAbility>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="216599309" objID="2282110127">
@@ -1554,7 +1554,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <TimeFactor value="0.75"/>
                 </AbilityEscapist>
             </Reference>
@@ -1580,7 +1580,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <SpeedFactor value="1.15"/>
                     <Duration value="0.0"/>
                 </AbilityChaseBoost>
@@ -1607,7 +1607,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <Abatement value="10.0"/>
                 </AbilityOverallCooldown>
             </Reference>
@@ -1633,7 +1633,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <SpeedFactor value="0.44"/>
                 </AbilitySilentHunt>
             </Reference>
@@ -1659,7 +1659,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <StreakValue value="3"/>
                     <UIString memberName="InGameShortDesc">
                         <OasisLineID value="310783"/>
@@ -1689,7 +1689,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <StreakValue value="3"/>
                     <UIString memberName="InGameShortDesc">
                         <OasisLineID value="313079"/>
@@ -1719,7 +1719,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <StreakValue value="5"/>
                     <UIString memberName="InGameShortDesc">
                         <OasisLineID value="313082"/>
@@ -1749,7 +1749,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <StreakValue value="5"/>
                     <UIString memberName="InGameShortDesc">
                         <OasisLineID value="313083"/>
@@ -1779,7 +1779,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <StreakValue value="3"/>
                     <UIString memberName="InGameShortDesc">
                         <OasisLineID value="310789"/>
@@ -1809,7 +1809,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <StreakValue value="3"/>
                     <UIString memberName="InGameShortDesc">
                         <OasisLineID value="310789"/>
@@ -1840,7 +1840,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <StreakValue value="5"/>
                     <UIString memberName="InGameShortDesc">
                         <OasisLineID value="313086"/>
@@ -1870,7 +1870,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="3"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                     <StreakValue value="5"/>
                     <UIString memberName="InGameShortDesc">
                         <OasisLineID value="313086"/>
@@ -1901,7 +1901,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                 </Ability>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="2314253727" objID="2364408469">
@@ -1926,7 +1926,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                 </Ability>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="2314253727" objID="2364408470">
@@ -1951,7 +1951,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                 </Ability>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="2314253727" objID="2364408471">
@@ -1976,7 +1976,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                 </Ability>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="2314253727" objID="2364408472">
@@ -2001,7 +2001,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                 </Ability>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="2314253727" objID="2364408473">
@@ -2026,7 +2026,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                 </Ability>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="2001960302" objID="2375578155">
@@ -2051,7 +2051,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                 </Ability>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="2001960302" objID="2375578112">
@@ -2076,7 +2076,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                 </Ability>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="2001960302" objID="2375578113">
@@ -2101,7 +2101,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                 </Ability>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="2001960302" objID="2375578114">
@@ -2126,7 +2126,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                 </Ability>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="2001960302" objID="2375578115">
@@ -2151,7 +2151,7 @@
                         <OasisLineID value="-1"/>
                     </UIString>
                     <Index value="0"/>
-                    <InitiallyHidden value="false"/>
+                    <InitiallyHidden value="true"/>
                 </Ability>
             </Reference>
         </m_AbilityReferenceList>
@@ -2200,7 +2200,7 @@
                 <Handle propertyName="AbilityRef" objID="1358546398"/>
                 <Pointer propertyName="UnlockConditionRef" classID="1688405200">
                     <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="4"/>
+                        <Level value="51"/>
                     </UnlockConditionLevel>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2272,7 +2272,7 @@
                 <Handle propertyName="AbilityRef" objID="2894362835"/>
                 <Pointer propertyName="UnlockConditionRef" classID="1688405200">
                     <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="19"/>
+                        <Level value="51"/>
                     </UnlockConditionLevel>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2344,7 +2344,7 @@
                 <Handle propertyName="AbilityRef" objID="2364408399"/>
                 <Pointer propertyName="UnlockConditionRef" classID="1688405200">
                     <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="20"/>
+                        <Level value="1"/>
                     </UnlockConditionLevel>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2360,7 +2360,7 @@
                 <Handle propertyName="AbilityRef" objID="2364408419"/>
                 <Pointer propertyName="UnlockConditionRef" classID="1688405200">
                     <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="21"/>
+                        <Level value="51"/>
                     </UnlockConditionLevel>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2424,7 +2424,7 @@
                 <Handle propertyName="AbilityRef" objID="2364408400"/>
                 <Pointer propertyName="UnlockConditionRef" classID="1688405200">
                     <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="30"/>
+                        <Level value="1"/>
                     </UnlockConditionLevel>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2448,7 +2448,7 @@
                 <Handle propertyName="AbilityRef" objID="2282110127"/>
                 <Pointer propertyName="UnlockConditionRef" classID="1688405200">
                     <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="33"/>
+                        <Level value="51"/>
                     </UnlockConditionLevel>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2472,7 +2472,7 @@
                 <Handle propertyName="AbilityRef" objID="2375577881"/>
                 <Pointer propertyName="UnlockConditionRef" classID="1688405200">
                     <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="37"/>
+                        <Level value="51"/>
                     </UnlockConditionLevel>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2504,7 +2504,7 @@
                 <Handle propertyName="AbilityRef" objID="2375577802"/>
                 <Pointer propertyName="UnlockConditionRef" classID="1688405200">
                     <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="41"/>
+                        <Level value="51"/>
                     </UnlockConditionLevel>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2528,7 +2528,7 @@
                 <Handle propertyName="AbilityRef" objID="2375577959"/>
                 <Pointer propertyName="UnlockConditionRef" classID="1688405200">
                     <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="43"/>
+                        <Level value="51"/>
                     </UnlockConditionLevel>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2544,7 +2544,7 @@
                 <Handle propertyName="AbilityRef" objID="2375577869"/>
                 <Pointer propertyName="UnlockConditionRef" classID="1688405200">
                     <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="47"/>
+                        <Level value="51"/>
                     </UnlockConditionLevel>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2560,7 +2560,7 @@
                 <Handle propertyName="AbilityRef" objID="2375577935"/>
                 <Pointer propertyName="UnlockConditionRef" classID="1688405200">
                     <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="49"/>
+                        <Level value="51"/>
                     </UnlockConditionLevel>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2569,7 +2569,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="3374733064"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2578,7 +2578,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="3374733066"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2587,7 +2587,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="453255673"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2596,7 +2596,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="3374733065"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2605,7 +2605,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="453255675"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2614,7 +2614,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="453255676"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2632,7 +2632,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="453255679"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2641,7 +2641,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="2494276425"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2650,7 +2650,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="2494276316"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2668,7 +2668,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="2494276317"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2686,7 +2686,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="2494276428"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2695,7 +2695,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="2494276423"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2704,7 +2704,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="2494276638"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2722,7 +2722,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="2494276637"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2740,7 +2740,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="2494276424"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2767,7 +2767,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="2494276633"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2776,7 +2776,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="2494276431"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
