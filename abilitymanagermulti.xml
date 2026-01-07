@@ -965,11 +965,11 @@
                     </UIString>
                     <Index value="0"/>
                     <InitiallyHidden value="true"/>
-                    <CooldownDuration value="90.0"/>
-                    <Duration value="2.5"/>
-                    <CosMax value="0.82"/>
-                    <Range value="2.5"/>
-                    <OverBoost value="-0.5"/>
+                    <CooldownDuration value="80.0"/>
+                    <Duration value="1.5"/>
+                    <CosMax value="0.87"/>
+                    <Range value="2.0"/>
+                    <OverBoost value="0.0"/>
                     <ControlCoef value="1.00"/>
                 </AbilityPowerCharge>
             </Reference>
@@ -2360,7 +2360,7 @@
                 <Handle propertyName="AbilityRef" objID="2364408419"/>
                 <Pointer propertyName="UnlockConditionRef" classID="1688405200">
                     <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="51"/>
+                        <Level value="1"/>
                     </UnlockConditionLevel>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2536,7 +2536,7 @@
                 <Handle propertyName="AbilityRef" objID="2375577953"/>
                 <Pointer propertyName="UnlockConditionRef" classID="1688405200">
                     <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="46"/>
+                        <Level value="51"/>
                     </UnlockConditionLevel>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2623,7 +2623,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="453255678"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
@@ -2731,7 +2731,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="2494276430"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
