@@ -15,7 +15,7 @@
         <CatchupSpawnLastMinuteDistanceRatio value="0.5"/>
         <FixedSpawnDistanceMin value="40.0"/>
         <FixedSpawnDistanceMax value="50.0"/>
-        <ThreatmeterFastSpeed value="1.45"/>
+        <ThreatmeterFastSpeed value="1.16"/>
         <ThreatmeterNeutralSpeed value="-0.1"/>
         <ThreatmeterHiddenSpeed value="-0.132"/>
         <ThreatmeterFastSpeedOOS value="-0.0495"/>
