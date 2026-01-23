@@ -65,4 +65,5 @@
     <GBrick_Matchmaking Start="GameModeInitialized" OnFinished="SessionReady" TimeBeforeMergingSession="20" BaseTimeBetweenSearch="10" PlayerDelayBetweenSearch="1" ResetTimerOnJoin="false" BaseTimeAddedOnJoin="2" AddPlayerDelayOnJoin="true" RandomMaxTime="5" WaitForSkinsToLoadMap="true" UseMatchMakingNatFilter="true" UseHUDCounterBehaviour="true"/>
     <GBrick_BloodBath Start="InGame" Stop="GameStateEnded"/>
     <GBrick_BlockPlayer Start="GameModeInitialized,GameStateEnded,LocalPlayerEndOfDeath,StartInterround" Stop="EngineExitWhiteRoom"/>
+    <GBrick_CheckNumberOfPlayers Start="PlayerRemoved" OnFinished="NoMoreEnoughPlayers" PlayersThreshold="8" SendEventWhileInGame="true"/>
 </GameMode>

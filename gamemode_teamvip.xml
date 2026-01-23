@@ -70,4 +70,5 @@
     <GBrick_BlockPlayer Start="GameModeInitialized,GameStateEnded,LocalPlayerEndOfDeath,StartInterround,TeamLoop" Stop="EngineExitWhiteRoom"/>
     <GBrick_RequestRespawnWhileHumiliated Start="InGame" Stop="GameStateEnded" YButtonInterval="5.0f" TimeToBlinkFirst="1.0f" TimeToBlinkLast="1.0f" BlinkIntervalFirst="0.2f" BlinkIntervalLast="0.1f"/>
     <GBrick_MPMessages Start="InGame" Stop="GameStateEnded" DisableMessages="5aba72e6"/>
+    <GBrick_CheckNumberOfPlayers Start="PlayerRemoved" OnFinished="NoMoreEnoughPlayers" PlayersThreshold="4" SendEventWhileInGame="true"/>
 </GameMode>

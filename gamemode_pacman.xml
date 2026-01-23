@@ -65,4 +65,5 @@
     <GBrick_SetAttackingTeamLoop Start="StartInterround"/>
     <GBrick_PickupObjectManager Start="StartRound" NotifyWorldLoaded="ModeCanStart" Stop="StartInterround,GameStateEnded" NumberActivePickups="3" GatherDistance="8.0f" GatherAssistDistance="2.0f" TimeToGatherPickup="25.0f" TimeToGatherPickup2="22.5f" TimeToGatherPickup3="20.0f" TimeToGatherPickup4="15.0f" RespawnTimerWhenFlushed="5.0f" RespawnTimerWhenOne="3000.0f" PickupRespawnTime="0.01f" CanPickupWhenHasContract="false" CanPickupWhenAlreadyHasOne="true" nbPrevPos="6" SpawnPointType="3" SpawnPointRule="9"/>
     <GBrick_BlockPlayer Start="GameModeInitialized,GameStateEnded,LocalPlayerEndOfDeath,StartInterround" Stop="EngineExitWhiteRoom"/>
+    <GBrick_CheckNumberOfPlayers Start="PlayerRemoved" OnFinished="NoMoreEnoughPlayers" PlayersThreshold="8" SendEventWhileInGame="true"/>
 </GameMode>
