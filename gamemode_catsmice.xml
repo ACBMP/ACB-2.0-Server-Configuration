@@ -34,8 +34,8 @@
     <GBrick_PlayerInfo Start="InGame" Stop="GameStateEnded" DisplayContractOnMe="true" DisplayRanking="true"/>
     <GBrick_PlayerListExtended Start="TeamSelectionStarted" Stop="GameStateEnded"/>
     <GBrick_TeamSelection Start="SpawnedInWhiteRoom,Restart,RestartMenuFlow" OnStarted="TeamSelectionStarted" LeaveNeedsMinPlayersChosen="true" LeaveNeedsAllPlayersChosen="true" OnFinished="TeamSelected" MaxPlayersPerTeam="4" MaxNumberOfTeams="2" AllowedWhenEnded="false" TimeOut="15"/>
-    <GBrick_SkinSelection Start="TeamSelected" Cancel="RestartMenuFlow" OnStarted="SkinSelectionStarted" OnFinished="GoToGamemodeIntro" LeaveNeedsMinPlayersChosen="false" LeaveNeedsAllPlayersChosen="true" MaxPlayersWithSameSkin="4" MaxNumberOfSkins="2" AllowedWhenEnded="false" TimeOut="10"/>
-    <GBrick_AbilitySetSelection Start="EndOfScenarization" Cancel="RestartMenuFlow" OnStarted="AbilitySelectionStarted" OnFinished="AbilitySelected" MinTime="3" MaxTime="15" GameEntrance="true"/>
+    <GBrick_SkinSelection Start="TeamSelected" Cancel="RestartMenuFlow" OnStarted="SkinSelectionStarted" OnFinished="GoToGamemodeIntro" LeaveNeedsMinPlayersChosen="false" LeaveNeedsAllPlayersChosen="true" MaxPlayersWithSameSkin="4" MaxNumberOfSkins="2" AllowedWhenEnded="false" TimeOut="-1"/>
+    <GBrick_AbilitySetSelection Start="EndOfScenarization" Cancel="RestartMenuFlow" OnStarted="AbilitySelectionStarted" OnFinished="AbilitySelected" MinTime="3" MaxTime="-1" GameEntrance="true"/>
     <GBrick_CheckNumberOfPlayers Start="PlayerRemoved" Stop="GameStateEndedDelayed" OnFinished="NoMoreEnoughPlayers" PlayerPerTeamThreshold="1" SendEventWhileInGame="true"/>
     <GBrick_CheckNumberOfPlayers Start="PlayerRemoved" Stop="GameStateStarted" OnFinished="LostTeamInMenus" PlayerPerTeamThreshold="1" SendEventWhileInMenu="true"/>
     <GBrick_FlushSelections Start="LostTeamInMenus,ENGINE_ClientRestartFlow" OnFinished="RestartMenuFlow"/>
