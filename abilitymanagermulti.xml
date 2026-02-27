@@ -3043,7 +3043,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="2494276426"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
