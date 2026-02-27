@@ -707,7 +707,7 @@
                     <Index value="0"/>
                     <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408414"/>
-                    <CooldownDuration value="15.0"/>
+                    <CooldownDuration value="20.0"/>
                     <MaxEntities value="2"/>
                     <Radius value="2.0"/>
                 </AbilityMorph>
