@@ -531,7 +531,7 @@
                     <Index value="0"/>
                     <InitiallyHidden value="true"/>
                     <Handle propertyName="ExtendedAbility" objID="2364408410"/>
-                    <CooldownDuration value="45.0"/>
+                    <CooldownDuration value="50.0"/>
                     <Radius value="17.5"/>
                     <RadiusMaxIntensity value="7.5"/>
                     <Duration value="5.0"/>
