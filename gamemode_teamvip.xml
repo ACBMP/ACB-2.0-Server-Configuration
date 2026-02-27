@@ -59,7 +59,7 @@
     <GBrick_LogicAndOnEvent Start="SessionReady,EndOfLoading" OnFinished="CanSpawnInWhiteRoom" nbStartEvent="2"/>
     <GBrick_HudFeedback Start="InGame" Stop="GameStateEnded"/>
     <GBrick_ExtendedHud Start="InGame" Stop="GameStateEnded"/>
-    <GBrick_Delay Start="GameStateEnded" OnFinished="GameStateEndedDelayed" DelayDuration="2.f"/>
+    <GBrick_Delay Start="GameStateEnded" OnFinished="GameStateEndedDelayed" DelayDuration="5.f"/>
     <GBrick_VoiceChatRules FullVoiceChat="GameModeInitialized,GameStateEnded" TeamVoiceChat="SkinSelectionStarted,GameStateStarted,SelectTeamsFinished"/>
     <GBrick_InteractionManager Start="InGame" Stop="GameStateEnded" CanHumiliate_FutureAssassin="true" HumiliationCooldown="10.0f" CanTarget_VIP="false"/>
     <GBrick_SelectTeams Start="ServerNewTeamChoosen,ServerTeamCanceled" OnFinished="SelectTeamsFinished"/>
