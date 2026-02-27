@@ -148,9 +148,9 @@
                     </UIString>
                     <Index value="0"/>
                     <InitiallyHidden value="true"/>
-                    <CooldownDuration value="60.0"/>
-                    <Duration value="3.5"/>
-                    <SpeedFactor value="1.5"/>
+                    <CooldownDuration value="50.0"/>
+                    <Duration value="4.5"/>
+                    <SpeedFactor value="1.35"/>
                 </AbilitySpeedBoost>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="891829267" objID="1472009199">
@@ -2786,7 +2786,7 @@
                 <Handle propertyName="AbilityRef" objID="1472009199"/>
                 <Pointer propertyName="UnlockConditionRef" classID="1688405200">
                     <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="34"/>
+                        <Level value="51"/>
                     </UnlockConditionLevel>
                 </Pointer>
             </AbilityUnlockCondition>
