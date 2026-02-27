@@ -501,7 +501,7 @@
                     </UIString>
                     <Index value="0"/>
                     <InitiallyHidden value="true"/>
-                    <CooldownDuration value="35.0"/>
+                    <CooldownDuration value="40.0"/>
                     <Radius value="15.0"/>
                     <RadiusMaxIntensity value="6.0"/>
                     <Duration value="5.0"/>
