@@ -47,7 +47,7 @@
     <GBrick_LogicAndOnEvent Start="StartRound,PlayerReady" OnFinished="PlayerCanGoInGame" nbStartEvent="2"/>
     <GBrick_GameState SetStarted="ModeCanStart" SetEnded="GameOver,NoMoreEnoughPlayers" OnStarted="GameStateStarted" OnEnded="GameStateEnded"/>
     <GBrick_AttackFeedback Start="InGame" Stop="GameStateEnded" DisplayDebug="false"/>
-    <GBrick_Escape Start="InGame" Stop="GameStateEnded" StartChaseAtFullThreat="true" StartChaseOnNPCKill="false" FailChaseOnNPCKill="true" NPCKillMattersDistance="1000.0f" AllowStartChaseWhenChased="true" StayBlueUntilUnblend="true" ScoreOnHumiliation="true" BreakContractOnHumiliation="true" BreakContractOnHumiliationByTeammate="true" tempStatusText="false" DisplayDebug="false"/>
+    <GBrick_Escape Start="InGame" Stop="GameStateEnded" StartChaseAtFullThreat="false" StartChaseOnNPCKill="false" FailChaseOnNPCKill="true" NPCKillMattersDistance="1000.0f" AllowStartChaseWhenChased="true" StayBlueUntilUnblend="true" ScoreOnHumiliation="true" BreakContractOnHumiliation="true" BreakContractOnHumiliationByTeammate="true" tempStatusText="false" DisplayDebug="false"/>
     <GBrick_MapInfo Start="GameStateEnded" Stop="Restart" Title="YOU HAVE PLAYED"/>
     <GBrick_MapInfo Start="FirstSpawnInMap,Restart" Stop="InGame" Title="YOU WILL PLAY"/>
     <GBrick_LogicAndOnEvent Start="SessionReady,EndOfLoading" OnFinished="CanSpawnInWhiteRoom" nbStartEvent="2"/>
@@ -61,7 +61,7 @@
     <GBrick_DestroyTeams Start="ScoresSentDelayed"/>
     <GBrick_Matchmaking Start="GameModeInitialized" OnFinished="SessionReady" TimeBeforeMergingSession="20" BaseTimeBetweenSearch="10" PlayerDelayBetweenSearch="1" ResetTimerOnJoin="false" BaseTimeAddedOnJoin="2" AddPlayerDelayOnJoin="true" RandomMaxTime="5" WaitForSkinsToLoadMap="true" UseMatchMakingNatFilter="true" UseHUDCounterBehaviour="true"/>
     <GBrick_BloodBath Start="InGame" Stop="GameStateEnded"/>
-    <GBrick_PickupFeedback Start="StartRoundFadeDone" Stop="GameStateEnded,StartInterround" nbPickupsTracked="3" TrackWhenHasTarget="false" SharedForceShow="true" ForceShowWhenHorCloserThan="18.0f" UnForceShowWhenHorFurtherserThan="20.0f" ArrowFarScale="0.5f" ArrowCloseScale="1.0f" ArrowFarDistance="60.0f" ArrowCloseDistance="15.0f"/>
+    <GBrick_PickupFeedback Start="StartRoundFadeDone" Stop="GameStateEnded,StartInterround" nbPickupsTracked="3" TrackWhenHasTarget="false" SharedForceShow="true" ForceShowWhenHorCloserThan="60.0f" UnForceShowWhenHorFurtherserThan="100.0f" ArrowFarScale="0.5f" ArrowCloseScale="1.0f" ArrowFarDistance="60.0f" ArrowCloseDistance="15.0f"/>
     <GBrick_SetAttackingTeamLoop Start="StartInterround"/>
     <GBrick_PickupObjectManager Start="StartRound" NotifyWorldLoaded="ModeCanStart" Stop="StartInterround,GameStateEnded" NumberActivePickups="3" GatherDistance="8.0f" GatherAssistDistance="2.0f" TimeToGatherPickup="25.0f" TimeToGatherPickup2="22.5f" TimeToGatherPickup3="20.0f" TimeToGatherPickup4="15.0f" RespawnTimerWhenFlushed="5.0f" RespawnTimerWhenOne="3000.0f" PickupRespawnTime="0.01f" CanPickupWhenHasContract="false" CanPickupWhenAlreadyHasOne="true" nbPrevPos="6" SpawnPointType="3" SpawnPointRule="9"/>
     <GBrick_BlockPlayer Start="GameModeInitialized,GameStateEnded,LocalPlayerEndOfDeath,StartInterround" Stop="EngineExitWhiteRoom"/>
