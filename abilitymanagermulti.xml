@@ -1332,7 +1332,7 @@
                     <InitiallyHidden value="true"/>
                     <CooldownDuration value="90.0"/>
                     <Range value="1.5"/>
-                    <Delay value="6.5"/>
+                    <Delay value="3.5"/>
                     <PoisonType value="2"/>
                     <Score value="300"/>
                 </AbilityPoison>

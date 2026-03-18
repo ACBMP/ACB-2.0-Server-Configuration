@@ -285,7 +285,7 @@
                     <UIString memberName="BonusDescription">
                         <OasisLineID value="316398"/>
                     </UIString>
-                    <Value value="50"/>
+                    <Value value="150"/>
                 </ScoreBonusData>
             </Reference>
             <Reference propertyName="ScoreBonusList" classID="428924268" objID="2541162826">
