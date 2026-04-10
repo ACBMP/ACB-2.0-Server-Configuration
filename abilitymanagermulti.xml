@@ -1841,11 +1841,11 @@
                     </UIString>
                     <Index value="0"/>
                     <InitiallyHidden value="true"/>
-                    <StreakValue value="4"/>
+                    <StreakValue value="6"/>
                     <UIString memberName="InGameShortDesc">
                         <OasisLineID value="313086"/>
                     </UIString>
-                    <ExtraFactor value="1.5"/>
+                    <ExtraFactor value="2"/>
                 </AbilityScoreX2>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="810131707" objID="3359707201">
