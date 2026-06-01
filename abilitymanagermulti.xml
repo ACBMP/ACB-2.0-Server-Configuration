@@ -620,9 +620,9 @@
                     </UIString>
                     <Index value="0"/>
                     <InitiallyHidden value="true"/>
-                    <CooldownDuration value="75.0"/>
-                    <MaxEntities value="100"/>
-                    <Radius value="25.0"/>
+                    <CooldownDuration value="20.0"/>
+                    <MaxEntities value="2"/>
+                    <Radius value="2.0"/>
                 </AbilityMorph>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="1285884845" objID="2375577802">
@@ -3079,7 +3079,7 @@
                 <Pointer propertyName="UnlockConditionRef" classID="1475552278">
                     <UnlockConditionChallenge memberName="UnlockConditionRef">
                         <Handle propertyName="ChallengeRewardRef" objID="2494276427"/>
-                        <Level value="2"/>
+                        <Level value="51"/>
                     </UnlockConditionChallenge>
                 </Pointer>
             </AbilityUnlockCondition>
