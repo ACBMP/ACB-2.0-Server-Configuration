@@ -851,8 +851,8 @@
                     <Index value="0"/>
                     <InitiallyHidden value="true"/>
                     <CooldownDuration value="50.0"/>
-                    <Duration value="2.5"/>
-                    <DistanceLimit value="40.0"/>
+                    <Duration value="3.5"/>
+                    <DistanceLimit value="50.0"/>
                 </AbilityTemplarVision>
             </Reference>
             <Reference propertyName="AbilityReferenceList" classID="1683501714" objID="3872167638">
