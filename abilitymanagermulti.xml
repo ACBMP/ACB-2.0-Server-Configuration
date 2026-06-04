@@ -503,7 +503,7 @@
                     <InitiallyHidden value="true"/>
                     <CooldownDuration value="40.0"/>
                     <Radius value="15.0"/>
-                    <RadiusMaxIntensity value="2.0"/>
+                    <RadiusMaxIntensity value="6.0"/>
                     <Duration value="5.0"/>
                 </AbilityFireCracker>
             </Reference>
@@ -533,7 +533,7 @@
                     <Handle propertyName="ExtendedAbility" objID="2364408410"/>
                     <CooldownDuration value="50.0"/>
                     <Radius value="17.5"/>
-                    <RadiusMaxIntensity value="2.5"/>
+                    <RadiusMaxIntensity value="7.5"/>
                     <Duration value="5.0"/>
                 </AbilityFireCracker>
             </Reference>
