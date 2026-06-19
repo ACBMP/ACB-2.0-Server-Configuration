@@ -124,123 +124,6 @@
             </UnlockableUnlockCondition>
         </m_UnlockConditionList>
         <m_ReferenceList Array_Size="12">
-            <Reference propertyName="ReferenceList" classID="614032972" objID="2435967203">
-                <UnlockableMap memberName="ReferenceList">
-                    <Icon value="386389562"/>
-                    <UIString memberName="NameString">
-                        <OasisLineID value="307773"/>
-                    </UIString>
-                    <UIString memberName="DescriptionString">
-                        <OasisLineID value="307782"/>
-                    </UIString>
-                    <UIString memberName="UnlockDescriptionString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="EvolutionInfoString">
-                        <OasisLineID value="307782"/>
-                    </UIString>
-                    <UIString memberName="ControlDescString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="ParamDescString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <Index value="0"/>
-                    <InitiallyHidden value="false"/>
-                    <Reference propertyName="MapReference" classID="2382761820" objID="3484289820">
-                        <MpWorld memberName="MapReference">
-                            <Handle propertyName="World" objID="2438306323"/>
-                            <TimeOfDay value="12.0"/>
-                            <UIString memberName="DisplayName">
-                                <OasisLineID value="307773"/>
-                            </UIString>
-                            <UIString memberName="Description">
-                                <OasisLineID value="307782"/>
-                            </UIString>
-                            <Handle propertyName="TopViewImg" objID="25183635"/>
-                            <Handle propertyName="PreviewImg" objID="3541219875"/>
-                        </MpWorld>
-                    </Reference>
-                </UnlockableMap>
-            </Reference>
-            <Reference propertyName="ReferenceList" classID="614032972" objID="395991205">
-                <UnlockableMap memberName="ReferenceList">
-                    <Icon value="386389562"/>
-                    <UIString memberName="NameString">
-                        <OasisLineID value="307772"/>
-                    </UIString>
-                    <UIString memberName="DescriptionString">
-                        <OasisLineID value="307781"/>
-                    </UIString>
-                    <UIString memberName="UnlockDescriptionString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="EvolutionInfoString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="ControlDescString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="ParamDescString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <Index value="0"/>
-                    <InitiallyHidden value="false"/>
-                    <Reference propertyName="MapReference" classID="2382761820" objID="3731030989">
-                        <MpWorld memberName="MapReference">
-                            <Handle propertyName="World" objID="2087832802"/>
-                            <TimeOfDay value="12.0"/>
-                            <UIString memberName="DisplayName">
-                                <OasisLineID value="307772"/>
-                            </UIString>
-                            <UIString memberName="Description">
-                                <OasisLineID value="307781"/>
-                            </UIString>
-                            <Handle propertyName="TopViewImg" objID="25187205"/>
-                            <Handle propertyName="PreviewImg" objID="1696471093"/>
-                        </MpWorld>
-                    </Reference>
-                </UnlockableMap>
-            </Reference>
-            <Reference propertyName="ReferenceList" classID="614032972" objID="2435967204">
-                <UnlockableMap memberName="ReferenceList">
-                    <Icon value="386389562"/>
-                    <UIString memberName="NameString">
-                        <OasisLineID value="307771"/>
-                    </UIString>
-                    <UIString memberName="DescriptionString">
-                        <OasisLineID value="307780"/>
-                    </UIString>
-                    <UIString memberName="UnlockDescriptionString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="EvolutionInfoString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="ControlDescString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="ParamDescString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <Index value="0"/>
-                    <InitiallyHidden value="false"/>
-                    <Reference propertyName="MapReference" classID="2382761820" objID="3731030987">
-                        <MpWorld memberName="MapReference">
-                            <Handle propertyName="World" objID="555898184"/>
-                            <TimeOfDay value="12.0"/>
-                            <UIString memberName="DisplayName">
-                                <OasisLineID value="307771"/>
-                            </UIString>
-                            <UIString memberName="Description">
-                                <OasisLineID value="307780"/>
-                            </UIString>
-                            <Handle propertyName="TopViewImg" objID="25183756"/>
-                            <Handle propertyName="PreviewImg" objID="1696471073"/>
-                        </MpWorld>
-                    </Reference>
-                </UnlockableMap>
-            </Reference>
             <Reference propertyName="ReferenceList" classID="614032972" objID="395991207">
                 <UnlockableMap memberName="ReferenceList">
                     <Icon value="386389562"/>
@@ -276,45 +159,6 @@
                             </UIString>
                             <Handle propertyName="TopViewImg" objID="25183890"/>
                             <Handle propertyName="PreviewImg" objID="736326057"/>
-                        </MpWorld>
-                    </Reference>
-                </UnlockableMap>
-            </Reference>
-            <Reference propertyName="ReferenceList" classID="614032972" objID="395991206">
-                <UnlockableMap memberName="ReferenceList">
-                    <Icon value="386389562"/>
-                    <UIString memberName="NameString">
-                        <OasisLineID value="307775"/>
-                    </UIString>
-                    <UIString memberName="DescriptionString">
-                        <OasisLineID value="307784"/>
-                    </UIString>
-                    <UIString memberName="UnlockDescriptionString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="EvolutionInfoString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="ControlDescString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <UIString memberName="ParamDescString">
-                        <OasisLineID value="-1"/>
-                    </UIString>
-                    <Index value="0"/>
-                    <InitiallyHidden value="false"/>
-                    <Reference propertyName="MapReference" classID="2382761820" objID="3731030990">
-                        <MpWorld memberName="MapReference">
-                            <Handle propertyName="World" objID="1208392919"/>
-                            <TimeOfDay value="12.0"/>
-                            <UIString memberName="DisplayName">
-                                <OasisLineID value="307775"/>
-                            </UIString>
-                            <UIString memberName="Description">
-                                <OasisLineID value="307784"/>
-                            </UIString>
-                            <Handle propertyName="TopViewImg" objID="25183676"/>
-                            <Handle propertyName="PreviewImg" objID="1916454896"/>
                         </MpWorld>
                     </Reference>
                 </UnlockableMap>
@@ -358,6 +202,45 @@
                     </Reference>
                 </UnlockableMap>
             </Reference>
+            <Reference propertyName="ReferenceList" classID="614032972" objID="395991206">
+                <UnlockableMap memberName="ReferenceList">
+                    <Icon value="386389562"/>
+                    <UIString memberName="NameString">
+                        <OasisLineID value="307775"/>
+                    </UIString>
+                    <UIString memberName="DescriptionString">
+                        <OasisLineID value="307784"/>
+                    </UIString>
+                    <UIString memberName="UnlockDescriptionString">
+                        <OasisLineID value="-1"/>
+                    </UIString>
+                    <UIString memberName="EvolutionInfoString">
+                        <OasisLineID value="-1"/>
+                    </UIString>
+                    <UIString memberName="ControlDescString">
+                        <OasisLineID value="-1"/>
+                    </UIString>
+                    <UIString memberName="ParamDescString">
+                        <OasisLineID value="-1"/>
+                    </UIString>
+                    <Index value="0"/>
+                    <InitiallyHidden value="false"/>
+                    <Reference propertyName="MapReference" classID="2382761820" objID="3731030990">
+                        <MpWorld memberName="MapReference">
+                            <Handle propertyName="World" objID="1208392919"/>
+                            <TimeOfDay value="12.0"/>
+                            <UIString memberName="DisplayName">
+                                <OasisLineID value="307775"/>
+                            </UIString>
+                            <UIString memberName="Description">
+                                <OasisLineID value="307784"/>
+                            </UIString>
+                            <Handle propertyName="TopViewImg" objID="25183676"/>
+                            <Handle propertyName="PreviewImg" objID="1916454896"/>
+                        </MpWorld>
+                    </Reference>
+                </UnlockableMap>
+            </Reference>
             <Reference propertyName="ReferenceList" classID="614032972" objID="395991204">
                 <UnlockableMap memberName="ReferenceList">
                     <Icon value="386389562"/>
@@ -397,6 +280,84 @@
                     </Reference>
                 </UnlockableMap>
             </Reference>
+            <Reference propertyName="ReferenceList" classID="614032972" objID="2435967204">
+                <UnlockableMap memberName="ReferenceList">
+                    <Icon value="386389562"/>
+                    <UIString memberName="NameString">
+                        <OasisLineID value="307771"/>
+                    </UIString>
+                    <UIString memberName="DescriptionString">
+                        <OasisLineID value="307780"/>
+                    </UIString>
+                    <UIString memberName="UnlockDescriptionString">
+                        <OasisLineID value="-1"/>
+                    </UIString>
+                    <UIString memberName="EvolutionInfoString">
+                        <OasisLineID value="-1"/>
+                    </UIString>
+                    <UIString memberName="ControlDescString">
+                        <OasisLineID value="-1"/>
+                    </UIString>
+                    <UIString memberName="ParamDescString">
+                        <OasisLineID value="-1"/>
+                    </UIString>
+                    <Index value="0"/>
+                    <InitiallyHidden value="false"/>
+                    <Reference propertyName="MapReference" classID="2382761820" objID="3731030987">
+                        <MpWorld memberName="MapReference">
+                            <Handle propertyName="World" objID="555898184"/>
+                            <TimeOfDay value="12.0"/>
+                            <UIString memberName="DisplayName">
+                                <OasisLineID value="307771"/>
+                            </UIString>
+                            <UIString memberName="Description">
+                                <OasisLineID value="307780"/>
+                            </UIString>
+                            <Handle propertyName="TopViewImg" objID="25183756"/>
+                            <Handle propertyName="PreviewImg" objID="1696471073"/>
+                        </MpWorld>
+                    </Reference>
+                </UnlockableMap>
+            </Reference>
+            <Reference propertyName="ReferenceList" classID="614032972" objID="395991205">
+                <UnlockableMap memberName="ReferenceList">
+                    <Icon value="386389562"/>
+                    <UIString memberName="NameString">
+                        <OasisLineID value="307772"/>
+                    </UIString>
+                    <UIString memberName="DescriptionString">
+                        <OasisLineID value="307781"/>
+                    </UIString>
+                    <UIString memberName="UnlockDescriptionString">
+                        <OasisLineID value="-1"/>
+                    </UIString>
+                    <UIString memberName="EvolutionInfoString">
+                        <OasisLineID value="-1"/>
+                    </UIString>
+                    <UIString memberName="ControlDescString">
+                        <OasisLineID value="-1"/>
+                    </UIString>
+                    <UIString memberName="ParamDescString">
+                        <OasisLineID value="-1"/>
+                    </UIString>
+                    <Index value="0"/>
+                    <InitiallyHidden value="false"/>
+                    <Reference propertyName="MapReference" classID="2382761820" objID="3731030989">
+                        <MpWorld memberName="MapReference">
+                            <Handle propertyName="World" objID="2087832802"/>
+                            <TimeOfDay value="12.0"/>
+                            <UIString memberName="DisplayName">
+                                <OasisLineID value="307772"/>
+                            </UIString>
+                            <UIString memberName="Description">
+                                <OasisLineID value="307781"/>
+                            </UIString>
+                            <Handle propertyName="TopViewImg" objID="25187205"/>
+                            <Handle propertyName="PreviewImg" objID="1696471093"/>
+                        </MpWorld>
+                    </Reference>
+                </UnlockableMap>
+            </Reference>
             <Reference propertyName="ReferenceList" classID="614032972" objID="395991209">
                 <UnlockableMap memberName="ReferenceList">
                     <Icon value="386389562"/>
@@ -432,6 +393,45 @@
                             </UIString>
                             <Handle propertyName="TopViewImg" objID="25183716"/>
                             <Handle propertyName="PreviewImg" objID="1916454886"/>
+                        </MpWorld>
+                    </Reference>
+                </UnlockableMap>
+            </Reference>
+            <Reference propertyName="ReferenceList" classID="614032972" objID="2435967203">
+                <UnlockableMap memberName="ReferenceList">
+                    <Icon value="386389562"/>
+                    <UIString memberName="NameString">
+                        <OasisLineID value="307773"/>
+                    </UIString>
+                    <UIString memberName="DescriptionString">
+                        <OasisLineID value="307782"/>
+                    </UIString>
+                    <UIString memberName="UnlockDescriptionString">
+                        <OasisLineID value="-1"/>
+                    </UIString>
+                    <UIString memberName="EvolutionInfoString">
+                        <OasisLineID value="307782"/>
+                    </UIString>
+                    <UIString memberName="ControlDescString">
+                        <OasisLineID value="-1"/>
+                    </UIString>
+                    <UIString memberName="ParamDescString">
+                        <OasisLineID value="-1"/>
+                    </UIString>
+                    <Index value="0"/>
+                    <InitiallyHidden value="false"/>
+                    <Reference propertyName="MapReference" classID="2382761820" objID="3484289820">
+                        <MpWorld memberName="MapReference">
+                            <Handle propertyName="World" objID="2438306323"/>
+                            <TimeOfDay value="12.0"/>
+                            <UIString memberName="DisplayName">
+                                <OasisLineID value="307773"/>
+                            </UIString>
+                            <UIString memberName="Description">
+                                <OasisLineID value="307782"/>
+                            </UIString>
+                            <Handle propertyName="TopViewImg" objID="25183635"/>
+                            <Handle propertyName="PreviewImg" objID="3541219875"/>
                         </MpWorld>
                     </Reference>
                 </UnlockableMap>
