@@ -30,7 +30,7 @@
         <Force_target_skin_targeting value="false"/>
         <Dist_visibility value="4.5"/>
         <Dist_visibility_aperture_sight value="52.0"/>
-        <Dist_unlock value="52.099998"/>
+        <Dist_unlock value="104"/>
         <Dist_gap value="3.5"/>
         <Dist_height_gap value="1.8"/>
         <Los_retry_count value="7"/>
