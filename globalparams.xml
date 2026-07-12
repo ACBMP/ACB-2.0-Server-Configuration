@@ -39,7 +39,7 @@
         <Reticule_angle_y value="8.0"/>
         <Height_Z_Targeting_Offset value="2.0"/>
         <Height_Z_Narrow_Object_Tageting_offset value="0.2"/>
-        <CrowdBandwidth_AllowBandwidthManagement value="true"/>
+        <CrowdBandwidth_AllowBandwidthManagement value="false"/>
         <CrowdBandwidth_QualityUpdatePeriod value="10"/>
         <CrowdBandwidth_PingQuality5 value="200"/>
         <CrowdBandwidth_PingQuality0 value="500"/>
