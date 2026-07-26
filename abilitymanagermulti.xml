@@ -2562,7 +2562,7 @@
                 <Handle propertyName="AbilityRef" objID="2364408420"/>
                 <Pointer propertyName="UnlockConditionRef" classID="1688405200">
                     <UnlockConditionLevel memberName="UnlockConditionRef">
-                        <Level value="17"/>
+                        <Level value="51"/>
                     </UnlockConditionLevel>
                 </Pointer>
             </AbilityUnlockCondition>
